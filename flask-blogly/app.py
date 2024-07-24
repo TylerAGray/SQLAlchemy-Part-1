@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Configure the database connection
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///blogly"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'ihaveasecret'
+app.config['SECRET_KEY'] = 'X8bJ2rLm'
 
 # Initialize the debug toolbar
 toolbar = DebugToolbarExtension(app)
