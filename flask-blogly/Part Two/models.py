@@ -1,5 +1,3 @@
-"""SQLAlchemy models for blogly."""
-
 import datetime
 from flask_sqlalchemy import SQLAlchemy
 
