@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Configure the SQLAlchemy database URI and other settings
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///blogly"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'ihaveasecret'
+app.config['SECRET_KEY'] = 'X8bJ2rLm'
 
 # Enable Debug Toolbar Extension
 # Uncomment the following line to disable the intercept of redirects
